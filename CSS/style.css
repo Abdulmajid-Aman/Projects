@@ -78,6 +78,21 @@ header {
     padding: 4px;
 }
 
+.create-icon > i {
+    background-color: rgb(0, 111, 201);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 85px;
+    margin-top: -30px;
+}
+
 .profile-pic {
     display: flex;
     flex-direction: column;
