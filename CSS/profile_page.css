@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+
+body {
+    text-align: center;
+    border: 1px solid black;
+    width: 550px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    box-shadow: 2px 12px 30px rgba(138, 134, 134, 0.5);
+ }
+
+ header {
+    margin-bottom: 20px;
+ }
+
+ .main-area {
+    padding: 5px;
+ }
+
+.profile-header {
+    display: flex;
+    align-items: center;  
+    gap: 140px; 
+    width: 100%;
+}
+
+.part-one {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.part-one > i {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.part-two {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.part-two > i {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.username {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.acc-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acc-image {
+    background-color: rgb(197, 194, 194);
+    border-radius: 50%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.acc-image > i {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 4px;
+}
+
+.followers {
+    display: flex;
+    gap: 50px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.number {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.header {
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.bottom-icons > a  {
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 5px;
+    color: aliceblue;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 525px;
+    background-color: black; /* or any other background color you prefer */
+    text-align: center;
+    padding: 10px;
+    z-index: 1; /* to ensure it's on top of other elements */
+}
+
+.bottom-icons {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(155, 155, 155);
+    margin: 0 auto;
+}
+
+.jina {
+    text-align-last: left;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.outer {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.icon-info {
+    display: flex;
+    gap: 10px;
+    background-color: rgb(53, 52, 52);
+    width: max-content;
+    border-radius: 20px;
+    padding: 5px;
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+}
+
+.icon-background {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: max-content;
+}
+
+.icon-background > i {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.icon-text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bio {
+    font-family: "Yesteryear", cursive;
+    font-size: 24px;
+    text-align-last: left;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.bio2 {
+    margin-top: 5px;
+    text-align-last: left;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.flags {
+    text-align-last: left;
+    margin-top: 5px;
+}
+
+.buttons-container {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(75, 74, 74);
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+}
